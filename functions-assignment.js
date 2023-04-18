@@ -32,13 +32,15 @@ function addNewItems(groceryItems,quantityOfItem){
 addNewItems(groceryItems,quantityOfItem)
 
 // Write a function to update the stock quantity of an existing item.
-
-
-let total=0;
-quantityOfItem.forEach(item=>{
-    total+=item.quantity
-})
-console.log("TOTAL:",total);
+let stockQuantity=[100,52,45,59,70,55,60,90,10,30,89]
+let i=0;
+let sum=0;
+while(i<stockQuantity.length){
+    console.log(stockQuantity);
+    sum+=stockQuantity[i]
+    i++
+}
+console.log("TOTAL:",sum);
 
 
 // Write a function to calculate the total number of items in the inventory.
